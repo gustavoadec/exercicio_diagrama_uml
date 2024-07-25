@@ -1,5 +1,6 @@
 # exercicio_diagrama_uml
-
+### Diagrama UML (Mermaid)
+```mermaid
 classDiagram
     class ReprodutorMusical {
         +void tocar()
@@ -26,3 +27,5 @@ classDiagram
     Iphone --|> ReprodutorMusical
     Iphone --|>  AparelhoTelefonico
     Iphone --|>  NavegadorNaInternet
+
+```
